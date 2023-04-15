@@ -13,8 +13,8 @@ Here is my solution for the [Testimonials grid section challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [ https://ozlemxates.github.io/testimonials-grid-section-Frontend-Montor/](https://your-live-site-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/testimonials-grid-section-vA-zwlTtx1)
+- Live Site URL: []( https://ozlemxates.github.io/testimonials-grid-section-Frontend-Montor/)
 
 ## My process
 
