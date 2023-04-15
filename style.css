@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+:root {
+    --violet: hsl(263, 55%, 52%);
+    --grayish-blue: hsl(217, 19%, 35%);
+    --blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --background: hsl(210, 46%, 95%);
+}
+
+body {
+    background-color: var(--background);
+    font-size: 13px;
+
+}
+
+main {
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+
+}
+
+.clifford {
+    background-color: var(--violet);
+    padding: 30px;
+    margin: 25px;
+    grid-column: 1/ 2 span;
+    grid-row: 1/ 1 span;
+    background-image: url(images/bg-pattern-quotation.svg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 84% 0%;
+    
+
+}
+.walters {
+    background-color: var(--grayish-blue);
+    padding: 30px;
+    margin: 25px;
+    grid-column: 3/ 1 span;
+    grid-row:1/1 span ;
+
+    border-radius: 10px;
+}
+
+.whittle {
+    background-color: var(--White);
+    padding: 30px;
+    margin: 25px;
+    grid-column: 4/1 span;
+    grid-row: 1 /2 span;
+
+    border-radius: 10px;
+
+}
+
+.harmon {
+    background-color: var(--White);
+    padding: 30px;
+    margin: 25px;
+    grid-column: 1/ 1 span;
+    grid-row: 2/ 1 span;
+
+    border-radius: 10px;
+
+}
+
+.abrams {
+    background-color: var(--blackish-blue);
+    padding: 30px;
+    margin: 25px;
+    grid-column: 2/ 2 span;
+    grid-row: 2/ 1 span;
+
+    border-radius: 10px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px
+}
+
+.clifford h2, .walters h2, .abrams h2 {
+    color: var(--White);
+}
+
+.harmon h2, .whittle h2 {
+    color: var(--grayish-blue);
+}
+
+.clifford p, .walters p, .abrams p {
+    color: hsla(0, 0%, 100%, 70%);
+}
+
+.harmon p, .whittle p {
+    color: hsla(217, 19%, 35%, 70%);
+}
+
+.info img {
+    width: 32px;
+    border-radius: 50%;
+}
+
+.info { 
+    display: flex;
+    gap:20px
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.clifford .first, .walters .first, .abrams .first {
+    color: var(--White);
+    font-weight: 600;
+}
+
+.clifford .second, .walters .second, .abrams .second {
+    color:hsla(0, 0%, 100%, 50%)
+   
+}
+.harmon .first, .whittle .first {
+    color: var(--grayish-blue);
+    font-weight: 600;
+}
+
+.harmon .second, .whittle .second {
+    color: hsla(217, 19%, 35%, 50%);
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+  
