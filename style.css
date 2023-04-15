@@ -26,6 +26,10 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr ;
+    grid-template-areas:
+    "clifford clifford walters whittle"
+    "harmon abrams abrams whittle"
+    ;
 
 }
 
@@ -39,6 +43,7 @@ main {
     border-radius: 10px;
     background-repeat: no-repeat;
     background-position: 84% 0%;
+    grid-area: clifford;
     
 
 }
@@ -48,7 +53,7 @@ main {
     margin: 25px;
     grid-column: 3/ 1 span;
     grid-row:1/1 span ;
-
+    grid-area: walters;
     border-radius: 10px;
 }
 
@@ -58,7 +63,7 @@ main {
     margin: 25px;
     grid-column: 4/1 span;
     grid-row: 1 /2 span;
-
+    grid-area: whittle;
     border-radius: 10px;
 
 }
@@ -69,7 +74,7 @@ main {
     margin: 25px;
     grid-column: 1/ 1 span;
     grid-row: 2/ 1 span;
-
+    grid-area: harmon;
     border-radius: 10px;
 
 }
@@ -80,7 +85,7 @@ main {
     margin: 25px;
     grid-column: 2/ 2 span;
     grid-row: 2/ 1 span;
-
+    grid-area: abrams;
     border-radius: 10px;
 }
 .text {
@@ -143,3 +148,31 @@ main {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
   
+
+@media (max-width:768px) {
+    body {
+        
+    }
+    main {
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 2fr ;
+        grid-template-areas: 
+        "clifford"
+        "clifford"
+        "walters"
+        "harmon"
+        "abrams"
+        "abrams"
+        "whittle"
+        "whittle"
+        ;
+}
+
+}
+
+ @media (max-width:375px) {
+   
+    
+ }
