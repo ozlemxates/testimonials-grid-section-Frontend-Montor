@@ -14,7 +14,7 @@ Here is my solution for the [Testimonials grid section challenge on Frontend Men
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [ https://ozlemxates.github.io/testimonials-grid-section-Frontend-Montor/](https://your-live-site-url.com)
 
 ## My process
 
@@ -58,5 +58,5 @@ This is me!
 
 ## Last but not least 
 
-Thanks for checking out this front-end coding challenge.
+Thanks for checking out my front-end coding solution.
  🚀
