@@ -18,11 +18,14 @@
 body {
     background-color: var(--background);
     font-size: 13px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 
 }
 
 main {
-    margin: 60px auto;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr ;
