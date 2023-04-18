@@ -1,6 +1,6 @@
 # Hello! 👋
 
-Here is my solution for the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). I tried my best to make the desing as close as posible to the original.
+Here is my solution for the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). I tried my best to make the design as close as possible to the original.
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Here is my solution for the [Testimonials grid section challenge on Frontend Men
 
 ### What I learned
 
-While doing the challange I realize grid requires great focusing. But if we use it right it work well as it is very practical solution for flexibility.
+While doing the challenge I realize grid requires great focusing. But if we use it right it works well as it is a very practical solution for flexibility.
 
 ```html
 <h1>Below you can see some CSS code I'm proud of</h1>
